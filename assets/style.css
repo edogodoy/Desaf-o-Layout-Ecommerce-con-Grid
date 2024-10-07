@@ -59,6 +59,8 @@ footer {
 
 /********************************************* SIDEBAR */
 .sidebar {
+    display: flex;
+    flex-direction: column;
     grid-area: sidebar;
     width: 15rem;
     background-color: #3498db;
@@ -98,6 +100,10 @@ footer {
 }
 
 .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 1rem;
@@ -117,6 +123,7 @@ footer {
     max-height: 30rem;
     border-radius: .8rem;
     object-fit: cover;
+    margin-bottom: 1rem;
 }
 
 .product-name {
